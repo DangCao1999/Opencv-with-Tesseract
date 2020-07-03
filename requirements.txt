@@ -1,5 +1,0 @@
-flask
-Pillow
-pytesseract
-opencv-python
-google-cloud-vision
