@@ -1,0 +1,8 @@
+flask
+Pillow
+pytesseract
+google-cloud-vision
+Keras
+opencv-python
+tensorflow
+
