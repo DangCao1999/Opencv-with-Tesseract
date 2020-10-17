@@ -1,17 +1,7 @@
 import keras
 import cv2
 import numpy as np
-from keras.models import model_from_json
 
-
-
-
-def load_model(strr):
-  json_file = open(strr, 'r')
-  loaded_model_json = json_file.read()
-  json_file.close()
-  loaded_model = model_from_json(loaded_model_json)
-  return loaded_model
 
 def decode_to_boxes(output , ht , wd):
     #output : (x,x,1,5)

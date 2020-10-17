@@ -4,5 +4,5 @@ pytesseract
 google-cloud-vision
 Keras
 opencv-python
-tensorflow
+
 
