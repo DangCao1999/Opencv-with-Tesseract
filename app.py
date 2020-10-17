@@ -44,4 +44,4 @@ def get_image(name_image):
         return send_from_directory(app.config['CLIENT_IMAGE'], filename= name_image, as_attachment=True)
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0',port=80)
